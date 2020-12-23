@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Core\Framework.Core.csproj" />
+    <ProjectReference Include="..\Framework.Dto\Framework.Dto.csproj" />
+    <ProjectReference Include="..\Framework.RepositoryContract\Framework.RepositoryContract.csproj" />
+    <ProjectReference Include="..\Framework.ServiceContract\Framework.ServiceContract.csproj" />
+  </ItemGroup>
+
+</Project>
